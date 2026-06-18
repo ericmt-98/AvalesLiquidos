@@ -41,6 +41,7 @@ Para evitar contradicciones, cada hecho vive en **un** lugar canónico; lo demá
    ├─ README.md                    # este archivo (mapa + gobernanza)
    ├─ decisions.md                 # registro de decisiones (ADR-log)                                              [creado]
    ├─ decisions/                   # ADRs individuales cuando una decisión crece                                  [futuro]
+   ├─ faq.md                       # preguntas comunes: de "qué es un escrow" a custodia/roadmap                  [creado]
    ├─ xrpl-gotchas.md              # errores comunes de escrow XRPL (de los hallazgos v3→v4) — material faro       [creado]
    ├─ threat-model.md              # límites de confianza y custodia                                               [pendiente]
    ├─ glossary.md                  # glosario bilingüe de conceptos                                                [pendiente]

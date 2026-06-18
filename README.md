@@ -106,9 +106,10 @@ DISCLAIMER.md         # legal / regulatory notice
 
 ## Documentation
 
-- [Documentation map & governance](./docs/README.md)
-- [Decision log (ADRs)](./docs/decisions.md)
+- [FAQ](./docs/faq.md) — from "what is an escrow?" to trust, custody, and the roadmap
 - [XRPL escrow & credential gotchas](./docs/xrpl-gotchas.md) — common mistakes, with fixes
+- [Decision log (ADRs)](./docs/decisions.md)
+- [Documentation map & governance](./docs/README.md)
 - [Contributing](./CONTRIBUTING.md) · [Security](./SECURITY.md)
 
 ## License
