@@ -12,3 +12,6 @@ export * from './db/types';
 export * from './db/repository';
 export * from './db/inMemory';
 export * from './db/postgres';
+export * from './credentials/tiers';
+export * from './credentials/verify';
+export * from './credentials/issue';
