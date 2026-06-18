@@ -26,12 +26,12 @@ Para evitar contradicciones, cada hecho vive en **un** lugar canónico; lo demá
 
 ```
 /                                  # front-door de GitHub
-├─ README.md                       # héroe: qué/para quién/estado/quickstart/posicionamiento + link a DISCLAIMER  [pendiente: requiere código]
+├─ README.md                       # héroe: qué/para quién/estado/quickstart/posicionamiento + link a DISCLAIMER  [creado]
 ├─ DISCLAIMER.md                   # aviso legal/regulatorio (software de referencia)                              [creado]
 ├─ LICENSE                         # Apache-2.0                                                                    [creado]
-├─ SECURITY.md                     # reporte de vulnerabilidades                                                   [pendiente]
-├─ CONTRIBUTING.md                 # cómo contribuir + setup dev                                                   [pendiente]
-├─ CODE_OF_CONDUCT.md                                                                                              [pendiente]
+├─ SECURITY.md                     # reporte de vulnerabilidades                                                   [creado]
+├─ CONTRIBUTING.md                 # cómo contribuir + setup dev                                                   [creado]
+├─ CODE_OF_CONDUCT.md                                                                                              [creado]
 ├─ CHANGELOG.md · ROADMAP.md                                                                                       [pendiente]
 ├─ .github/                        # plantillas de issues/PR, discussions                                         [pendiente]
 ├─ reporte_v4_fuente_de_verdad.md  # fuente de verdad: motor
@@ -41,7 +41,7 @@ Para evitar contradicciones, cada hecho vive en **un** lugar canónico; lo demá
    ├─ README.md                    # este archivo (mapa + gobernanza)
    ├─ decisions.md                 # registro de decisiones (ADR-log)                                              [creado]
    ├─ decisions/                   # ADRs individuales cuando una decisión crece                                  [futuro]
-   ├─ xrpl-gotchas.md              # errores comunes de escrow XRPL (de los hallazgos v3→v4) — material faro       [pendiente]
+   ├─ xrpl-gotchas.md              # errores comunes de escrow XRPL (de los hallazgos v3→v4) — material faro       [creado]
    ├─ threat-model.md              # límites de confianza y custodia                                               [pendiente]
    ├─ glossary.md                  # glosario bilingüe de conceptos                                                [pendiente]
    ├─ integration-guide.md         # para plataformas de renta (adoptantes) — ES                                  [pendiente: requiere API]
