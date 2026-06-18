@@ -1,0 +1,28 @@
+{
+  "name": "@avales-liquidos/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Core domain engine for Avales Líquidos: XRPL escrow, credentials, reconciliation. Transport-agnostic (see arquitectura_producto.md §2).",
+  "license": "Apache-2.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run test/unit",
+    "test:watch": "vitest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "xrpl": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1",
+    "vitest": "^2.1.8"
+  }
+}

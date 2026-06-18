@@ -1,0 +1,19 @@
+{
+  "name": "avales-liquidos",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Open-source reference implementation for liquid rent guarantees (Avales Líquidos) on the XRP Ledger",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
