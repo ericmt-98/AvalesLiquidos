@@ -15,3 +15,7 @@ export * from './db/postgres';
 export * from './credentials/tiers';
 export * from './credentials/verify';
 export * from './credentials/issue';
+export * from './avales/limits';
+export * from './avales/create';
+export * from './avales/executeDefault';
+export * from './avales/complete';
