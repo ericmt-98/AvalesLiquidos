@@ -1,7 +1,7 @@
 # Arquitectura de Producto — Avales Líquidos
 ## Cómo el mismo motor sirve a usuarios (app móvil) y a clientes (integración)
 
-**Complementa a:** `reporte_v4_fuente_de_verdad.md` (el motor) y `plan_implementacion_mvp.md` (las tareas).
+**Complementa a:** `reporte_v4_fuente_de_verdad.md` (el motor — **documento interno, no publicado**) y `plan_implementacion_mvp.md` (las tareas). Las citas `§X` apuntan a ese reporte interno.
 **Fecha:** 18 de Junio, 2026
 **Caso de referencia:** plataforma de rentas inmobiliarias en CDMX que ofrece "aval incluido" a sus inquilinos.
 

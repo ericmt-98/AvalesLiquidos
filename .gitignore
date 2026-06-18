@@ -7,3 +7,7 @@ coverage/
 .env.*.local
 .DS_Store
 Thumbs.db
+
+# Internal documents — kept local, never published (see docs/README.md)
+reporte_v4_fuente_de_verdad.md
+reporte_corregido_final.md

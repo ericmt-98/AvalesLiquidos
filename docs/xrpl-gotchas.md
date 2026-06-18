@@ -2,8 +2,7 @@
 
 Hard-won lessons from building a production-shaped escrow + credentials system on the
 XRP Ledger. Each item is a mistake that's easy to make, why it breaks, and the fix used
-in this codebase. Most surfaced in an on-chain audit that turned a v3 design into v4
-(see the change log in `reporte_v4_fuente_de_verdad.md`).
+in this codebase. Most surfaced in an on-chain audit that turned a v3 design into v4.
 
 > Verify amendment status on-chain before every milestone — voting state changes.
 

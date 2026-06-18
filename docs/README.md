@@ -12,7 +12,7 @@ Para evitar contradicciones, cada hecho vive en **un** lugar canónico; lo demá
 
 | Dominio | Fuente de verdad | Archivo |
 |---|---|---|
-| Motor / semántica XRPL | Reporte técnico v4.1 | `reporte_v4_fuente_de_verdad.md` |
+| Motor / semántica XRPL | Reporte técnico v4.1 (**interno, no publicado** — local only) | `reporte_v4_fuente_de_verdad.md` |
 | Producto / arquitectura de integración | Arquitectura de producto | `arquitectura_producto.md` |
 | Decisiones y su porqué | Registro de decisiones (ADR-log) | `docs/decisions.md` |
 | Plan de ejecución | Plan de implementación | `plan_implementacion_mvp.md` |
@@ -34,9 +34,9 @@ Para evitar contradicciones, cada hecho vive en **un** lugar canónico; lo demá
 ├─ CODE_OF_CONDUCT.md                                                                                              [creado]
 ├─ CHANGELOG.md · ROADMAP.md                                                                                       [pendiente]
 ├─ .github/                        # plantillas de issues/PR, discussions                                         [pendiente]
-├─ reporte_v4_fuente_de_verdad.md  # fuente de verdad: motor
 ├─ arquitectura_producto.md        # fuente de verdad: producto
 ├─ plan_implementacion_mvp.md      # plan de ejecución
+│  (reporte_v4_fuente_de_verdad.md y reporte_corregido_final.md = INTERNOS, local-only, gitignored)
 └─ docs/
    ├─ README.md                    # este archivo (mapa + gobernanza)
    ├─ decisions.md                 # registro de decisiones (ADR-log)                                              [creado]
@@ -47,11 +47,14 @@ Para evitar contradicciones, cada hecho vive en **un** lugar canónico; lo demá
    ├─ glossary.md                  # glosario bilingüe de conceptos                                                [pendiente]
    ├─ integration-guide.md         # para plataformas de renta (adoptantes) — ES                                  [pendiente: requiere API]
    ├─ operator-guide.md            # para quien opera el pool: deploy, KMS/quorum, checklist regulatoria — ES      [pendiente]
-   ├─ api-reference/               # generado de openapi.yaml — EN                                                 [pendiente]
-   └─ history/                     # archivo (p. ej. reporte_corregido_final.md = v3)                              [pendiente: mover]
+   └─ api-reference/               # generado de openapi.yaml — EN                                                 [pendiente]
 ```
 
-> Reorganización pendiente (no destructiva, se hará al iniciar el repo): mover `reporte_corregido_final.md` → `docs/history/`. Los tres docs raíz de diseño pueden quedarse en raíz o moverse a `docs/` al crear el monorepo.
+> **Documentos internos (no publicados en GitHub):** `reporte_v4_fuente_de_verdad.md`
+> (motor, marcado Confidencial) y `reporte_corregido_final.md` (histórico v3). Se
+> mantienen **locales** y están en `.gitignore`; fueron purgados del historial del repo
+> público. Las citas `§X` en `arquitectura_producto.md` / `plan_implementacion_mvp.md`
+> apuntan al reporte interno.
 
 ---
 

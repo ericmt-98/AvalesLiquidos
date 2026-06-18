@@ -51,8 +51,9 @@ Tenant ──commission──▶ [ Pool (operator capital) ] ──locks──�
 
 A **transport-agnostic core** (`packages/core`) holds all the logic; channels (API, SDK,
 mobile app) are skin on top. Full design in
-[`arquitectura_producto.md`](./arquitectura_producto.md); the engine spec is the
-[technical source of truth](./reporte_v4_fuente_de_verdad.md).
+[`arquitectura_producto.md`](./arquitectura_producto.md). The detailed XRPL engine spec
+is maintained as an internal document; its practical lessons are distilled publicly in
+[XRPL gotchas](./docs/xrpl-gotchas.md).
 
 ## What's built
 
@@ -99,7 +100,6 @@ npm run db:down
 packages/core/        # the engine (config, xrpl, credentials, avales, db, reconciliation)
 docs/                 # documentation map, decision log (ADRs), XRPL gotchas
 arquitectura_producto.md      # product architecture (source of truth)
-reporte_v4_fuente_de_verdad.md # engine / XRPL spec (source of truth)
 plan_implementacion_mvp.md     # implementation plan
 DISCLAIMER.md         # legal / regulatory notice
 ```

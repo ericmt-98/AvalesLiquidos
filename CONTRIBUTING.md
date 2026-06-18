@@ -9,8 +9,9 @@ more than feature count.
 - Read [`docs/README.md`](./docs/README.md) (documentation map & source-of-truth rules)
   and [`docs/decisions.md`](./docs/decisions.md) (ADRs) before non-trivial changes — to
   avoid contradicting decisions already made.
-- The engine spec is [`reporte_v4_fuente_de_verdad.md`](./reporte_v4_fuente_de_verdad.md);
-  when in doubt about XRPL semantics, follow it and cite the section.
+- When in doubt about XRPL semantics, follow the patterns in
+  [`docs/xrpl-gotchas.md`](./docs/xrpl-gotchas.md) and the existing code. (The detailed
+  engine spec is maintained as an internal document.)
 - Don't reintroduce fixed bugs — see [`docs/xrpl-gotchas.md`](./docs/xrpl-gotchas.md).
 - **Never** log, persist in cleartext, or commit secrets (fulfillments, seeds, KMS data).
 

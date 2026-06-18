@@ -1,7 +1,7 @@
 # Plan de Implementación — MVP Técnico (PoC Testnet)
 ## Sistema de Avales Líquidos sobre XRPL
 
-**Fuente de verdad:** `reporte_v4_fuente_de_verdad.md` (v4.1, 11 Jun 2026)
+**Fuente de verdad:** `reporte_v4_fuente_de_verdad.md` (v4.1, 11 Jun 2026 — **documento interno, no publicado**; las citas `§X` apuntan a él)
 **Ejecutor previsto:** agente Claude Sonnet, tarea por tarea
 **Alcance de este plan:** todo sobre **testnet**. Las fases **A–H** son el **MVP técnico de Fase 1** del reporte (§6); las fases **I/J/K/R** son la **capa de producto** definida en `arquitectura_producto.md` (API, SDK, app white-label, renta on-chain) — extensiones encima del motor del reporte (la renta on-chain §11bis no está en el reporte; es decisión de producto del 18 Jun). NO cubre Fase 0 (legal/underwriting), NI Fase 2 (MPT/stablecoin/APPT), NI Fase 3 (XLS-100/mainnet con capital).
 **Fecha:** 18 de Junio, 2026
