@@ -74,4 +74,8 @@ export const config = {
   kms: {
     mode: process.env.KMS_MODE ?? 'mock',
   },
+  db: {
+    // Optional: required only when using the Postgres adapter (Fase C).
+    url: process.env.DB_URL,
+  },
 } as const;

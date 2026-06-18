@@ -1,0 +1,23 @@
+# Local development services for Avales Líquidos.
+# Postgres is the operational store (report §2.1); the ledger remains the audit trail.
+#   docker compose up -d postgres
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: avales-postgres
+    environment:
+      POSTGRES_USER: avales
+      POSTGRES_PASSWORD: avales
+      POSTGRES_DB: avales
+    ports:
+      - "5432:5432"
+    volumes:
+      - avales-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U avales -d avales"]
+      interval: 3s
+      timeout: 3s
+      retries: 15
+
+volumes:
+  avales-pgdata:
